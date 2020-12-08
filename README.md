@@ -114,7 +114,7 @@ C:\flutter\bin\cache\dart-sdk\bin\dart.exe ^
 ```bash
 $ git clone --branch engine-binaries https://github.com/ardera/flutter-pi ~/engine-binaries
 $ cd /path/to/your/app
-$ ~/engine-binaries/gen_snapshot_linux_x64 \
+$ ~/engine-binaries/arm64/gen_snapshot_linux_x64 \
   --causal_async_stacks \
   --deterministic \
   --snapshot_kind=app-aot-elf \
